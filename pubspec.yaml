@@ -1,0 +1,24 @@
+name: my_news_app
+description: A news app that fetches articles from the Global News Articles API
+
+environment:
+  sdk: '^3.5.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8  # Updated version
+  http: ^1.2.2  # Updated version
+  shared_preferences: ^2.3.3
+  provider: ^6.1.2  # Use a compatible version of provider
+  url_launcher: ^6.1.6  # Use the latest version
+  dio: ^5.0.0
+  cached_network_image: ^3.2.3
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
